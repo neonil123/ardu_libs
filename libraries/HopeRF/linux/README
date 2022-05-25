@@ -1,0 +1,6 @@
+This directory contains test programs that can be compiled and run on Linux
+2 programs are built by Makefile:
+
+server:	   A Linux version of HRFReliableDatagramServer, which connects to a
+	   HM-TR over RS232 on /dev/ttyUSB0 and listens for requests from a HRFReliableDatagramClient
+test_hrf:  A Linux test suite, used during development of the HopeRF library
